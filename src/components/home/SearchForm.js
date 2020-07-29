@@ -42,4 +42,4 @@ const mapStateToProps = state => ({
     text: state.movies.text
 })
 
-export default connect(mapStateToProps, {searchMovie, fetchMovies})(SearchForm)
+export default connect(mapStateToProps, {searchMovie, fetchMovies, setLoading})(SearchForm)
